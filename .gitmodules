@@ -1,0 +1,3 @@
+[submodule "Wordpress-bootstrap/dist/wordpress"]
+	path = Wordpress-bootstrap/dist/wordpress
+	url = https://github.com/WordPress/WordPress.git

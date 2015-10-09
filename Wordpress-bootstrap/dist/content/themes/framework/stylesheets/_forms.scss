@@ -1,0 +1,26 @@
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+textarea {
+	max-width: 100%;
+	width: 100%;
+	color: #666666;
+	border: 1px solid #cccccc;
+	padding: 3px;
+	&:focus {
+		color: #111111;
+		outline: none;
+	}
+}
+
+label {
+	font-weight: bold;
+	display: block;
+	margin: 10px 0 2px;
+}
+
+select {
+	max-width: 100%;
+}

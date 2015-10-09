@@ -1,0 +1,16 @@
+// Add bootstrap overrides here too
+
+
+$black: #000000;
+$white: #ffffff;
+
+
+$font-primary: Helvetica, sans-serif;
+
+
+$grid-gutter-width: 60px;
+
+
+// Bring in large breakpoint so it looks good on my laptop
+$container-large-desktop: ((1100px + $grid-gutter-width));
+$container-lg: $container-large-desktop;

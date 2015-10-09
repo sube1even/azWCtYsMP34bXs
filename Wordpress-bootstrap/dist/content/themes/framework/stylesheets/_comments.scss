@@ -1,0 +1,16 @@
+.comments-area {
+	.comment-content a {
+		word-wrap: break-word;
+	}
+	.comment-form-comment {
+		label {
+			display: block;
+		}
+	}
+}
+
+//	.bypostauthor
+
+#submit {
+	@extend .btn-primary;
+}

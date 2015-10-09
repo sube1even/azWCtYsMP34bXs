@@ -1,0 +1,97 @@
+.pagination {
+
+	margin-top: 50px;
+
+	ul {
+		float: right;
+		list-style: none;
+		font-size: 0px; // inline-block fix
+
+		li {
+			margin-left: 7px;
+			display: inline-block;
+
+			span {
+				display: block;
+				color: #000;
+				background: #fff;
+				width: 25px;
+				height: 25px;
+				border-radius: 20px;
+				font-size: 14px;
+				padding-top: 2px;
+				text-align: center;
+
+				&:before {
+					font-size: 17px;
+					@include position( relative, 2px 0 0 0 );
+				}
+			}
+
+			a {
+				@extend span;
+				color: #000;
+
+				&:hover {
+					color: #fff;
+					background: #000;
+					text-decoration: none;
+				}
+
+
+			}
+
+			&.first {
+				span, a {
+					&:before {
+
+					}
+				}
+			}
+
+			&.next {
+				span, a {
+					&:before {
+
+					}
+				}
+			}
+
+			&.prev {
+				span, a {
+					&:before {
+						//@extend .icon-arrow-previous;
+					}
+				}
+			}
+
+			&.last {
+				span, a {
+					&:before {
+						//@extend .icon-arrow-end;
+					}
+				}
+			}
+
+
+			&.active {
+				a {
+					background: #000;
+					color: #fff;
+				}
+			}
+
+		}
+	}
+
+	@include media( $mobile ) {
+		margin: 20px 0 50px;
+		@include clearfix();
+
+		ul {
+			float: left;
+		}
+	}
+
+
+}

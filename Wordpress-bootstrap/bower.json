@@ -1,0 +1,20 @@
+{
+  "name": "Framework",
+  "version": "0.0.0",
+  "authors": [
+    "Daniel Bitzer <Daniel.Bitzer@clemenger.com.au>"
+  ],
+  "license": "None",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "modernizr": "~2.8.3",
+    "bootstrap-sass-official": "~3.2.0"
+  }
+}
